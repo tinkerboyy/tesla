@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useMemo } from 'react';
+import React from 'react';
 import useInventory from '../useInventory';
 import './Wheels.scss';
 

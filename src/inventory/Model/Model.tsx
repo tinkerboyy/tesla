@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useCallback, useState } from 'react';
+import React from 'react';
 import Car from '../Car';
 import Climate from '../Climate';
 import Counter from '../Counter';

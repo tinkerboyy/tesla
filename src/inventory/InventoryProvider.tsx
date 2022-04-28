@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useState } from 'react';
+import React from 'react';
 
 export function createCtx<A>(defaultValue: A) {
 	type UpdateType = React.Dispatch<React.SetStateAction<typeof defaultValue>>;

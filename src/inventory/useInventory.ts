@@ -26,7 +26,7 @@ const useInventory = () => {
 	useEffect(() => {
 		const models = calculateStats(results, state);
 		update({ ...state, models });
-	}, []);
+	}, [state, update]);
 
 	const onWheelChange = useCallback(
 		(event: React.ChangeEvent<HTMLInputElement>) => {
@@ -35,7 +35,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	const onClimateChange = useCallback(
@@ -45,7 +45,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	const tempIncrement = useCallback(
@@ -54,7 +54,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	const tempDecrement = useCallback(
@@ -66,7 +66,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	const speedIncrement = useCallback(
@@ -78,7 +78,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	const speedDecrement = useCallback(
@@ -90,7 +90,7 @@ const useInventory = () => {
 			const models = calculateStats(results, updateState);
 			update({ ...updateState, models });
 		},
-		[update],
+		[update, state],
 	);
 
 	return {

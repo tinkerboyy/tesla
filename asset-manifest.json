@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tesla/static/css/main.86e6af67.css",
-    "main.js": "/tesla/static/js/main.b3809c27.js",
+    "main.js": "/tesla/static/js/main.fe2ea576.js",
     "static/js/787.3b70ba07.chunk.js": "/tesla/static/js/787.3b70ba07.chunk.js",
     "static/media/Roboto-Regular-webfont.svg": "/tesla/static/media/Roboto-Regular-webfont.2e416dfb83b610f7b128.svg",
     "static/media/tesla.jpg": "/tesla/static/media/tesla.472d2fe2a86e0bf56cf1.jpg",
@@ -27,11 +27,11 @@
     "static/media/up.svg": "/tesla/static/media/up.9240e048f0ded1e86962.svg",
     "static/media/down.svg": "/tesla/static/media/down.96b579fe352e3318aa94.svg",
     "main.86e6af67.css.map": "/tesla/static/css/main.86e6af67.css.map",
-    "main.b3809c27.js.map": "/tesla/static/js/main.b3809c27.js.map",
+    "main.fe2ea576.js.map": "/tesla/static/js/main.fe2ea576.js.map",
     "787.3b70ba07.chunk.js.map": "/tesla/static/js/787.3b70ba07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86e6af67.css",
-    "static/js/main.b3809c27.js"
+    "static/js/main.fe2ea576.js"
   ]
 }

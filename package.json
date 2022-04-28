@@ -1,78 +1,77 @@
 {
-	"homepage": "https://tinkerboyy.github.io/tesla",
-	"name": "tesla",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"@testing-library/jest-dom": "^5.16.4",
-		"@testing-library/react": "^13.0.1",
-		"@testing-library/user-event": "^13.5.0",
-		"@types/jest": "^27.4.1",
-		"@types/node": "^16.11.27",
-		"@types/react": "^18.0.5",
-		"@types/react-dom": "^18.0.1",
-		"node-sass": "^7.0.1",
-		"react": "^18.0.0",
-		"react-dom": "^18.0.0",
-		"react-router-dom": "^6.3.0",
-		"react-scripts": "5.0.1",
-		"sass-loader": "^12.6.0",
-		"typescript": "^4.6.3",
-		"web-vitals": "^2.1.4"
-	},
-	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"predeploy": "yarn build",
-		"deploy": "gh-pages -d build",
-		"lint": "lint-staged"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
-	},
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged",
-			"pre-push": "CI=true yarn test"
-		}
-	},
-	"lint-staged": {
-		"*.{ts,tsx}": [
-			"tslint --fix",
-			"eslint --fix --max-warnings=0",
-			"git add"
-		]
-	},
-	"devDependencies": {
-		"gh-pages": "^3.2.3",
-		"husky": "^4.3.8",
-		"lint-staged": "^9.5.0",
-		"prettier": "^1.19.1",
-		"tslint": "^5.20.1",
-		"tslint-config-prettier": "^1.18.0",
-		"tslint-plugin-prettier": "^2.1.0"
-	},
-	"prettier": {
-		"trailingComma": "es5",
-		"tabWidth": 2,
-		"semi": true,
-		"singleQuote": true
-	}
+  "homepage": "https://tinkerboyy.github.io/tesla",
+  "name": "tesla",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.0.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.27",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "node-sass": "^7.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "sass-loader": "^12.6.0",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "lint": "lint-staged"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "tslint --fix",
+      "eslint --fix --max-warnings=0",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "husky": "^4.3.8",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.1.0"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  }
 }
